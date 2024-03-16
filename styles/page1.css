@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 35px;
+    text-align: center;
+    vertical-align: sub;
+    background-color: springgreen;
+    color: white;
+    border: 0.5px solid grey;
+}
+
+td {
+    text-align: left;
+    background-color: whitesmoke;
+}
+
+tr {
+    border: solid 12px black;
+}
