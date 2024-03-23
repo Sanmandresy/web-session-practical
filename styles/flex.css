@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav,
+ul {
+  width: 100%;
+  background-color: red;
+}
+
+ul {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+
+  li {
+    margin: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.lorem-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 100;
+  color: rgba(214, 44, 44, 0.63);
+  text-shadow: black 2px 2px;
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph {
+  width: 750px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  margin-top: 25px;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: black 3px 3px 10px;
+  line-height: 1.5em;
+}
